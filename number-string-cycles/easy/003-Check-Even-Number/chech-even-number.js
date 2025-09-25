@@ -8,5 +8,4 @@ function isEven(num) {
     return `Num is not even`;
   }
 }
-
 console.log(isEven(4));
