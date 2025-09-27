@@ -10,4 +10,4 @@ function sumToN(n) {
   return total;
 }
 
-console.log(sumToN(5));
+console.log(sumToN(17));

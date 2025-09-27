@@ -12,4 +12,4 @@ function countVowels(str) {
   return count;
 }
 
-console.log(countVowels("Selin"));
+console.log(countVowels("Natasha"));
