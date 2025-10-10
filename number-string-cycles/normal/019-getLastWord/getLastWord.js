@@ -11,5 +11,8 @@ function getLastWord(str) {
   const words = str.split(" ");
   return words[words.length - 1];
 }
-
+//~ var 3
+function getLastWord(str) {
+  return str.split(" ").pop();
+}
 console.log(getLastWord("I love JavaScript")); // "JavaScript"
