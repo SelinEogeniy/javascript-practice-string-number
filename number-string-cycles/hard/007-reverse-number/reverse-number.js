@@ -6,7 +6,7 @@
 
 function reverseNumber(num) {
   num = String(num);
-  newStr = "";
+  let newStr = "";
   for (let i = num.length - 1; i >= 0; i--) {
     newStr += num[i];
   }
