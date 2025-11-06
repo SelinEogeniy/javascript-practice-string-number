@@ -5,7 +5,7 @@
 
 function stringContainsDigit(string) {
   const numbers = "0123456789";
-  for (let i = 0; i <= string.length; i++) {
+  for (let i = 0; i < string.length; i++) {
     if (numbers.includes(string[i])) {
       return true;
     }
