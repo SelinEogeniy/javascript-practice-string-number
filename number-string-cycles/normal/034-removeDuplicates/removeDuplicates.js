@@ -19,8 +19,14 @@
 
 //~Variant 2 (filter)
 
+// function removeDuplicates(arr) {
+//   return arr.filter((el, index) => arr.indexOf(el) === index);
+// }
+
+//~Variant 3 (Set)
+
 function removeDuplicates(arr) {
-  return arr.filter((el, index) => arr.indexOf(el) === index);
+  return [...new Set(arr)];
 }
 
 console.log(removeDuplicates([1, 2, 2, 3, 1]));
